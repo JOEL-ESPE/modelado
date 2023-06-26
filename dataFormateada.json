@@ -1,0 +1,1446 @@
+[
+    {
+        "columnNames": {
+            "C0": "Issue Clave",
+            "C1": "Resumen",
+            "C2": "Linked Issues: Key",
+            "C3": "Segmento",
+            "C4": "Tablero Stakeholders",
+            "C5": "Description"
+        },
+        "data": [
+            {
+                "C0": "PRE-308",
+                "C1": "\ud83c\udde8\ud83c\uddf4 CO | ST3 | Emisi\u00f3n Estudio Jur\u00eddico B2B | Etapa 1 de 1 | STA | Q3",
+                "C2": "KPF-396",
+                "C3": "Strategic Account",
+                "C4": "Strategic Accounts",
+                "C5": "Issuance of a legal study document through the EDD portal"
+            },
+            {
+                "C0": "PRE-310",
+                "C1": "\ud83c\udf0e GL - Integraci\u00f3n VTEX",
+                "C2": "KPF-873",
+                "C3": "Final",
+                "C4": "Comercial\nPartnerships",
+                "C5": "Context\nThere is currently no integration with VTEX\nObjective(s) to solve\nIntegrate all payment methods (Card, Transfer, and Cash)\nBe in the VTEX configuration console as a gateway\nJustification\nExpand the CMS offer\nStrengthen functionalities\nRisks\nIt will not allow Kushki to grow safely and sustainably.\nPRD Confluence: https://kushki.atlassian.net/wiki/spaces/EDP/pages/2704638669"
+            },
+            {
+                "C0": "PRE-314",
+                "C1": "\ud83c\udf0e GL - Ajustes Plugin Prestashop (Caso Vi\u00f1a Concha y Toro)",
+                "C2": "KPF-375",
+                "C3": "Final",
+                "C4": "Comercial",
+                "C5": "No Description"
+            },
+            {
+                "C0": "PRE-319",
+                "C1": "\ud83c\uddea\ud83c\udde8 EC - Migraci\u00f3n de Cash Management Banco Internacional",
+                "C2": "KPF-419",
+                "C3": "Core",
+                "C4": "Finanzas & FinOps",
+                "C5": "\"Explain why this functionality is being built and what is expected to be achieved.\nIt is needed to couple the existing Billing Collections and Ecuador Settlement functionalities and couple them to the new version put into production by International Bank in order to continue using the settlement dashboard service recently put into production in Q1 2022.\nGoals\nList the goals and objectives to be achieved.\nAdapt Ecuador's collection and settlement processes to the new Cash Management of Banco Internacional\"."
+            },
+            {
+                "C0": "PRE-326",
+                "C1": "\ud83c\udde8\ud83c\uddf1 CL-Upgrade reporte SII Chile (TRX ADQ Tarjeta presente y BOLETA) ",
+                "C2": "KPF-880",
+                "C3": "Core",
+                "C4": "Governance & Compliance\nFinanzas & FinOps",
+                "C5": "Include, based on the regulations that apply to the acquirer, the report of transactions of this model for the automatic sending of information to the tax entity."
+            },
+            {
+                "C0": "PRE-329",
+                "C1": "\ud83c\uddf2\ud83c\uddfd MX - Ajustes en Layout de Conciliaci\u00f3n Prosa y carga m\u00f3dulo",
+                "C2": "KPF-958",
+                "C3": "Core",
+                "C4": "Finanzas & FinOps\nAdquirencia",
+                "C5": "Generate the upload of the Prosa acquisition reconciliation file in the reconciliation module, including a new filter or visualization in the automatic reconciliation dashboard"
+            },
+            {
+                "C0": "PRE-332",
+                "C1": "\ud83c\udf0e GL - Ajustes configuraci\u00f3n de cuentas UAT",
+                "C2": "KPF-27",
+                "C3": "Core",
+                "C4": "Onboarding",
+                "C5": "A quick win is proposed to modify the immediate affiliation subprocess, so that a better usability experience can be generated for the commerce, having by default the creation of rates, data for billing, payment and dispersion, processors, deferred and rules by default in all countries; in this way, reducing the additional time burden that it takes to carry out these additional steps pending in the creation / edition of the trade by the Sales Engineers and / or Technical Support Engineers."
+            },
+            {
+                "C0": "PRE-333",
+                "C1": "\ud83c\uddf2\ud83c\uddfd MX - Migraci\u00f3n versi\u00f3n V2 FacturApi",
+                "C2": "KPF-200",
+                "C3": "Core",
+                "C4": "Finanzas & FinOps",
+                "C5": "Kushki currently uses Facturapi in Mexico for the issuance of electronic invoices and due to an update it has to be changed to version V2 that will take effect from May 1, 2022"
+            },
+            {
+                "C0": "PRE-334",
+                "C1": "\ud83c\udf0e GL - Ajustes a M\u00f3dulo de Facturaci\u00f3n y Liquidaci\u00f3n",
+                "C2": "KPF-181",
+                "C3": "Core",
+                "C4": "Finanzas & FinOps",
+                "C5": "Generate adjustments to automatic billing and settlement processes"
+            },
+            {
+                "C0": "PRE-334",
+                "C1": "\ud83c\udf0e GL - Ajustes a M\u00f3dulo de Facturaci\u00f3n y Liquidaci\u00f3n",
+                "C2": "KPF-204",
+                "C3": "Core",
+                "C4": "Finanzas & FinOps",
+                "C5": "Generate adjustments to automatic billing and settlement processes"
+            },
+            {
+                "C0": "PRE-334",
+                "C1": "\ud83c\udf0e GL - Ajustes a M\u00f3dulo de Facturaci\u00f3n y Liquidaci\u00f3n",
+                "C2": "KPF-205",
+                "C3": "Core",
+                "C4": "Finanzas & FinOps",
+                "C5": "Generate adjustments to automatic billing and settlement processes"
+            },
+            {
+                "C0": "PRE-335",
+                "C1": "\ud83c\udf0e GL - Billing - Mejoras billing",
+                "C2": "KPF-19",
+                "C3": "Core",
+                "C4": "Finanzas & FinOps",
+                "C5": "Increase and improve the functionalities of the billing dashboard at a global front and back-end level."
+            },
+            {
+                "C0": "PRE-336",
+                "C1": "\ud83c\udde8\ud83c\uddf4 CO - Liquidaci\u00f3n autom\u00e1tica clientes pay ins Banco de Bogot\u00e1",
+                "C2": "KPF-30",
+                "C3": "Core",
+                "C4": "Finanzas & FinOps",
+                "C5": "Automation of the settlement process for settlement to Colombian merchants for pay ins transfer by Bank of Bogota."
+            },
+            {
+                "C0": "PRE-337",
+                "C1": "\ud83c\udde8\ud83c\uddf4 CO - Liquidaci\u00f3n autom\u00e1tica clientes pay outs Banco DaVivienda",
+                "C2": "KPF-31",
+                "C3": "Core",
+                "C4": "Finanzas & FinOps",
+                "C5": "Automation of the settlement process for settlement to Colombian merchants of pay outs Da Vivienda Bank"
+            },
+            {
+                "C0": "PRE-339",
+                "C1": "\ud83c\udf0e GL -Repositorio de datos centralizado para Kushki BBD interna transacciones- Fase 1 Dynamo LEDGER",
+                "C2": "KPF-365",
+                "C3": "Core",
+                "C4": "Governance & Compliance\nOnboarding\nFinanzas & FinOps\nComercial\nRiesgos",
+                "C5": "## Context ##\n\nCurrently, transaction information is dispersed in various information sources; it generates differences to obtain data, and with that, reliability is lost. With this background, it is proposed to obtain the necessary data related to the transactionality of merchants, with renamed fields and in a synchronized manner, consolidating them in Dynamo Ledger.\n\n## Objective(s) to solve ##\nAvoid redundancy of information sources and functions in areas that handle business transaction data.\nReduce time spent on base crossings and searching transactional information tables.\nAvoid data inconsistency presented in reports, dashboards, management reports, reports to regulatory entities, etc.\nApply access and restrictions based on security profiles to this transactional information.\nMaintain the integrity and fidelity of the data.\nImprove the performance of information extraction with an adequate periodicity, constant purification and distribution."
+            },
+            {
+                "C0": "PRE-340",
+                "C1": "\ud83c\udf0e GL -Repositorio de datos centralizado para Kushki BBD interna transacciones - Fase 2 Tabla de auditor\u00eda",
+                "C2": "KPF-1153",
+                "C3": "Core",
+                "C4": "Governance & Compliance\nOnboarding\nFinanzas & FinOps\nComercial\nRiesgos",
+                "C5": "## Context ##\n\nCurrently, transaction information is dispersed in various information sources; it generates differences to obtain data and with that, reliability is lost. With this background, it is proposed to obtain the necessary data related to the transactionality of merchants, with renamed fields and in a synchronized manner, consolidating them in Dynamo Ledger.\n\n## Objective(s) to solve ##\nAvoid redundancy of information sources and functions in areas that handle business transaction data.\nReduce time spent on base crossings and searching transactional information tables.\nAvoid data inconsistency presented in reports, dashboards, management reports, reports to regulatory entities, etc.\nApply access and restrictions based on security profiles to this transactional information.\nMaintain the integrity and fidelity of the data.\nImprove the performance of information extraction with an adequate periodicity, constant purification and distribution."
+            },
+            {
+                "C0": "PRE-340",
+                "C1": "\ud83c\udf0e GL -Repositorio de datos centralizado para Kushki BBD interna transacciones - Fase 2 Tabla de auditor\u00eda",
+                "C2": "KPF-122",
+                "C3": "Core",
+                "C4": "Governance & Compliance\nOnboarding\nFinanzas & FinOps\nComercial\nRiesgos",
+                "C5": "## Context ##\n\nCurrently, transaction information is dispersed in various information sources; it generates differences to obtain data and with that, reliability is lost. With this background, it is proposed to obtain the necessary data related to the transactionality of merchants, with renamed fields and in a synchronized manner, consolidating them in Dynamo Ledger.\n\n## Objective(s) to solve ##\nAvoid redundancy of information sources and functions in areas that handle business transaction data.\nReduce time spent on base crossings and searching transactional information tables.\nAvoid data inconsistency presented in reports, dashboards, management reports, reports to regulatory entities, etc.\nApply access and restrictions based on security profiles to this transactional information.\nMaintain the integrity and fidelity of the data.\nImprove the performance of information extraction with an adequate periodicity, constant purification and distribution."
+            },
+            {
+                "C0": "PRE-341",
+                "C1": "\ud83c\udf0e GL -Repositorio de datos centralizado para Kushki BBD interna transacciones - Fase 3 Herramienta gesti\u00f3n informaci\u00f3n",
+                "C2": "KPF-366",
+                "C3": "Core",
+                "C4": "Governance & Compliance\nOnboarding\nFinanzas & FinOps\nComercial\nRiesgos",
+                "C5": "## Context ##\n\nCurrently, transaction information is dispersed in various information sources; it generates differences to obtain data, and with that, reliability is lost. With this background, it is proposed to obtain the necessary data related to the transactionality of merchants, with renamed fields and in a synchronized manner, consolidating them in Dynamo Ledger.\n\n## Objective(s) to solve ##\nAvoid redundancy of information sources and functions in areas that handle business transaction data.\nReduce time spent on base crossings and searching transactional information tables.\nAvoid data inconsistency presented in reports, dashboards, management reports, reports to regulatory entities, etc.\nApply access and restrictions based on security profiles to this transactional information.\nMaintain the integrity and fidelity of the data.\nImprove the performance of information extraction with an adequate periodicity, constant purification, and distribution."
+            },
+            {
+                "C0": "PRE-342",
+                "C1": "\ud83c\udf0e GL - Usuarios y roles- Fase 1 M\u00f3dulo de usuarios y roles con administraci\u00f3n en 2 niveles y configuraci\u00f3n de asignaci\u00f3n tradicional",
+                "C2": "KPF-362",
+                "C3": "Core",
+                "C4": "Governance & Compliance\nOnboarding\nFinanzas & FinOps\nComercial\nAdquirencia\nRiesgos",
+                "C5": "Definition of the process for assigning standard roles for backoffice users"
+            },
+            {
+                "C0": "PRE-343",
+                "C1": "\ud83c\udf0e GL - Usuarios y roles- Fase 2 Crud de usuarios, estructura por rol, \u00e1rea, m\u00f3dulos y sub m\u00f3dulos",
+                "C2": "KPF-360",
+                "C3": "Core",
+                "C4": "Governance & Compliance\nOnboarding\nFinanzas & FinOps\nComercial\nAdquirencia\nRiesgos",
+                "C5": "Definition of the process for assigning standard roles for backoffice users"
+            },
+            {
+                "C0": "PRE-344",
+                "C1": "\ud83c\udf0e GL - Usuarios y roles- Fase 3 Acciones de seguridad y administraci\u00f3n de usuarios",
+                "C2": "KPF-363",
+                "C3": "Core",
+                "C4": "Governance & Compliance\nOnboarding\nFinanzas & FinOps\nComercial\nAdquirencia\nRiesgos",
+                "C5": "Definition of the process for assigning standard roles to backoffice users"
+            },
+            {
+                "C0": "PRE-345",
+                "C1": "\ud83c\udf0e GL - Usuarios y roles- Fase 4 Logs de usuarios y registro de atributos",
+                "C2": "KPF-364",
+                "C3": "Core",
+                "C4": "Governance & Compliance\nOnboarding\nFinanzas & FinOps\nComercial\nAdquirencia\nRiesgos",
+                "C5": "Definition of the process for assigning standard roles to backoffice users"
+            },
+            {
+                "C0": "PRE-354",
+                "C1": "\ud83c\udde8\ud83c\uddf4 CO - Agentes de retenci\u00f3n modelo agregador",
+                "C2": "KPF-209",
+                "C3": "Core",
+                "C4": "Finanzas & FinOps",
+                "C5": "In Colombia, the tax authority requires that all payment generators generate withholding taxes to businesses, so once Kushki is granted the license of withholding agents, the flow to proceed with these withholdings must be applied."
+            },
+            {
+                "C0": "PRE-358",
+                "C1": "\ud83c\udde8\ud83c\uddf1 CL - Liquidaci\u00f3n autom\u00e1tica clientes con Banco de Chile",
+                "C2": "KPF-157",
+                "C3": "Core",
+                "C4": "Finanzas & FinOps",
+                "C5": "Background\nIt is required to generate the automation of the settlement process with Banco de Chile corresponding to the transactions generated by card, transfer and cash.\nObjectives\n    Reduce manual processes to apply the settlements with Banco de Chile, by automating this action.\n    Disperse in an orderly and scheduled manner based on the cut-off times established by the banks in each country.\n    To have an information panel with the detail of all the records generated to settle and their status.\n\nTranslated with www.DeepL.com/Translator (free version)"
+            },
+            {
+                "C0": "PRE-435",
+                "C1": "\ud83c\uddf5\ud83c\uddea PE - Izipay Conexi\u00f3n directa + 3DS + API Reembolsos + CoF (Segundo Alcance)",
+                "C2": "KPF-107",
+                "C3": "Payment integrations",
+                "C4": "-",
+                "C5": "No Description"
+            },
+            {
+                "C0": "PRE-436",
+                "C1": "BR - Integraci\u00f3n con Card Payments FIS",
+                "C2": "KPF-962",
+                "C3": "Payment integrations",
+                "C4": "Onboarding\nPSP\nFinanzas & FinOps\nComercial\nPartnerships\nRiesgos",
+                "C5": "Integrate the card payment method with Cielo in Brazil."
+            },
+            {
+                "C0": "PRE-437",
+                "C1": "\ud83c\uddf5\ud83c\uddea PE - Transfer in Conexi\u00f3n Directa Bancos (General)",
+                "C2": "KPF-901",
+                "C3": "Payment integrations",
+                "C4": "Onboarding\nPSP\nFinanzas & FinOps\nComercial\nPartnerships",
+                "C5": "Scope of this DRP:* *.\n\nFor the purposes of this DRP, the entire payment method in general, impacts on processes, consoles, final products and databases will be worked on.\n\n  \n\nh2. Goals\n\n# Enable the new processor (Kushki Processor\" = direct connection with banks) for the \"Transfer In\" payment method in Peru."
+            },
+            {
+                "C0": "PRE-438",
+                "C1": "\ud83c\uddf5\ud83c\uddea PE - Transfer in Conexi\u00f3n Directa Bancos (BCP)",
+                "C2": "KPF-902",
+                "C3": "Payment integrations",
+                "C4": "Onboarding\nPSP\nFinanzas & FinOps\nComercial\nPartnerships",
+                "C5": "h1. *Objective*.\n\n\n\nThe objective is to replace Safetypay in the transfer in method for Peru by making a direct integration with the main banks of this country, in this PRD we will work on the direct connection with BCP bank.\n\nh1. Goals\n\n# To integrate the direct connection with BCP for the transfer in payment method.\n# Enable merchant configuration of this payment method in the internal console.\n# Enable all end products to this payment method with this new road with BCP.\n# Automate all operational processes contemplated by the tranfer in payment method (onboarding reconciliation, invoicing, settlement, refunds, among others)."
+            },
+            {
+                "C0": "PRE-439",
+                "C1": "\ud83c\uddf5\ud83c\uddea PE - Transfer in Conexi\u00f3n Directa Bancos (BBVA)",
+                "C2": "KPF-903",
+                "C3": "Payment integrations",
+                "C4": "Onboarding\nPSP\nFinanzas & FinOps\nComercial\nPartnerships",
+                "C5": "We are looking to replace Safetypay in the transfer in method for Peru by making a direct integration with the main banks in this country, in this PRD we will work on the direct connection with BBVA bank.\n\nh1. Justification\n\nh2. Description\n\nThere are 3 merchants that will be starting operations in Peru soon for the transfer in payment method. These merchants are Binance, Cryptomarket and Bitpoint. The projections that these merchants shared with us could make the POS and transactions grow considerably in this country. Below are the projections of each of these 3 merchants:\n\nAs a result of this business with these 3 merchants, the need arises to improve our road to transfer in payments in Peru, which is why it is required to integrate with major banks in the country. \n\nFor the purposes of this DRP, we will work on the integration with BBVA.\n\nh2. Goals\n\n# To integrate the direct connection with BBVA for the transfer in payment method.\n# Enable merchant configuration of this payment method in the internal console.\n# Enable all end products to this payment method with this new road with BBVA.\n# Automate all operational processes contemplated by the tranfer in payment method (onboarding reconciliation, invoicing, settlement, refunds, among others)."
+            },
+            {
+                "C0": "PRE-445",
+                "C1": "\ud83c\udf0e GL - Integraci\u00f3n Betsson",
+                "C2": "KPF-792",
+                "C3": "Payment integrations",
+                "C4": "Onboarding\nPSP\nFinanzas & FinOps\nComercial\nPartnerships",
+                "C5": "No Description"
+            },
+            {
+                "C0": "PRE-447",
+                "C1": "\ud83c\uddf2\ud83c\uddfd MX - Recargas autom\u00e1ticas de Wallet STP transfer out en M\u00e9xico.",
+                "C2": "KPF-853",
+                "C3": "Rails and Cash",
+                "C4": "Onboarding\nPSP\nFinanzas & FinOps\nComercial",
+                "C5": "No Description"
+            },
+            {
+                "C0": "PRE-452",
+                "C1": "CA \u2013 Creaci\u00f3n de jottforms para BAC",
+                "C2": "KPF-39",
+                "C3": "Payment integrations",
+                "C4": "PSP\nPartnerships",
+                "C5": "No Description"
+            },
+            {
+                "C0": "PRE-453",
+                "C1": "\ud83c\uddea\ud83c\udde8 EC - Reporte transaccional Claro",
+                "C2": "KPF-646",
+                "C3": "Payment integrations",
+                "C4": "Comercial",
+                "C5": "Context:\nCurrently a permanent report is generated and sent by mail at 6:00 AM on a transactional basis corresponding to Claro EC under the following parameters:\n\nObjectives:\nIt is required to automate the generation of transactional report for all Claro Merchants in Ecuador to be sent to the international bank on a scheduled basis.\n\nGoals\n    Send automatically and on a daily basis the Card transactional report for Claro Merchant.\n\nConsiderations\nThe hourly cut of the file must contemplate 5 days prior to the sending date from 00:00:00:00 to 23:59:59.999 EC time.\nExample: Date of shipment, 05/04/2022 06:00 AM\nFile time cut-off, 03/31/2022 00:00:00 TO 04/04/2022 23:59:59.999\nRisks \n \n    Manual processing may result in erroneous settlement.\n    Financial loss due to human error\n    Loss of reputation\n    Loss of business with the client.\n\nConfluence: https://kushki.atlassian.net/wiki/spaces/EDP/pages/2799960160/EC+-+Reporting+transactional+Clear"
+            },
+            {
+                "C0": "PRE-454",
+                "C1": "\ud83c\udde8\ud83c\uddf1 CL - Productos Finales y vista de diferidos del comercio en Abonos parcelados sin intereses con Transbank",
+                "C2": "KPF-968",
+                "C3": "Payment Features",
+                "C4": "Onboarding\nPSP\nComercial",
+                "C5": "No Description"
+            },
+            {
+                "C0": "PRE-455",
+                "C1": "\ud83c\udde8\ud83c\uddf1 CL - Tarifas y Costos en Abonos parcelados sin intereses con Transbank",
+                "C2": "KPF-943",
+                "C3": "Payment Features",
+                "C4": "Onboarding\nPSP\nComercial",
+                "C5": "No Description"
+            },
+            {
+                "C0": "PRE-456",
+                "C1": "\ud83c\udde8\ud83c\uddf1 CL - Diferidos en Abonos parcelados sin intereses con Transbank",
+                "C2": "KPF-954",
+                "C3": "Payment Features",
+                "C4": "Onboarding\nPSP\nComercial",
+                "C5": "No Description"
+            },
+            {
+                "C0": "PRE-457",
+                "C1": "\ud83c\udde8\ud83c\uddf1 CL - Mejora en flujo ETPay Transfer in",
+                "C2": "KPF-1030",
+                "C3": "Payment Features",
+                "C4": "Onboarding\nPSP\nComercial",
+                "C5": "We currently have a productive payment experience in Chile with ETPay that establishes a conversion rate of no more than 46%. \nIt is required to analyze the current experience and investigate the existing experiences in Chile that, as a result, propose an improvement in the user experience."
+            },
+            {
+                "C0": "PRE-459",
+                "C1": "\ud83c\uddea\ud83c\udde8 EC - Datafast Recurrencia",
+                "C2": "KPF-775",
+                "C3": "Payment Features",
+                "C4": "Onboarding\nPSP\nFinanzas & FinOps\nComercial",
+                "C5": "No Description"
+            },
+            {
+                "C0": "PRE-463",
+                "C1": "\ud83c\udf0e GL - Bin 8 digitos en Webcheckout",
+                "C2": "KPF-381",
+                "C3": "Payment Features",
+                "C4": "Governance & Compliance\nOnboarding\nComercial",
+                "C5": "No Description"
+            },
+            {
+                "C0": "PRE-464",
+                "C1": "\ud83c\udde8\ud83c\uddf1 CL - Integraci\u00f3n Transbank Modelo PSP (Parte I)",
+                "C2": "KPF-148",
+                "C3": "Payment Features",
+                "C4": "Onboarding\nPSP\nFinanzas & FinOps\nComercial",
+                "C5": "No Description"
+            },
+            {
+                "C0": "PRE-466",
+                "C1": "\ud83c\udf0e GL - OCB Servicios ",
+                "C2": "KPF-707",
+                "C3": "Payment Features",
+                "C4": "-",
+                "C5": "No Description"
+            },
+            {
+                "C0": "PRE-467",
+                "C1": "\ud83c\udf0e GL - OCB Reglas de Negocio y Credenciales",
+                "C2": "KPF-186",
+                "C3": "Payment Features",
+                "C4": "Onboarding\nPSP",
+                "C5": "No Description"
+            },
+            {
+                "C0": "PRE-468",
+                "C1": "\ud83c\udf0e GL - OCB Diferidos",
+                "C2": "KPF-706",
+                "C3": "Payment Features",
+                "C4": "Onboarding\nPSP",
+                "C5": "No Description"
+            },
+            {
+                "C0": "PRE-469",
+                "C1": "\ud83c\udf0e GL - OCB Procesadores",
+                "C2": "KPF-708",
+                "C3": "Payment Features",
+                "C4": "Onboarding\nPSP",
+                "C5": "No Description"
+            },
+            {
+                "C0": "PRE-471",
+                "C1": "\ud83c\udde8\ud83c\uddf4 CO - Transfer out - API Iris Bank",
+                "C2": "KPF-909",
+                "C3": "Rails and Cash",
+                "C4": "Onboarding\nPSP\nComercial",
+                "C5": "No Description"
+            },
+            {
+                "C0": "PRE-472",
+                "C1": "\ud83c\udde8\ud83c\uddf4 CO \u2013 Integraci\u00f3n con ATH",
+                "C2": "KPF-102",
+                "C3": "Rails and Cash",
+                "C4": "PSP\nComercial",
+                "C5": "This update is required to make the payment point available in each trx."
+            },
+            {
+                "C0": "PRE-473",
+                "C1": "\ud83c\udf0e GL - Enviar punto de pago por cada tx al comercio+integraci\u00f3n ATH",
+                "C2": "KPF-136",
+                "C3": "Rails and Cash",
+                "C4": "PSP\nComercial",
+                "C5": "This update is required to make the payment point available in each trx."
+            },
+            {
+                "C0": "PRE-474",
+                "C1": "CA - Integraci\u00f3n PuntoXpress - Cash In",
+                "C2": "KPF-115",
+                "C3": "Rails and Cash",
+                "C4": "PSP\nPartnerships",
+                "C5": "Integrate the PuntoXpress processor with the Cash In product in Central America."
+            },
+            {
+                "C0": "PRE-476",
+                "C1": "\ud83c\uddf5\ud83c\uddea PE -EC- Cambios integraci\u00f3n Safetypay (CASH)",
+                "C2": "KPF-643",
+                "C3": "Rails and Cash",
+                "C4": "PSP\nPartnerships",
+                "C5": "No Description"
+            },
+            {
+                "C0": "PRE-478",
+                "C1": "\ud83c\udde8\ud83c\uddf4 CO - Ajuste integraci\u00f3n PayValida",
+                "C2": "KPF-117",
+                "C3": "Rails and Cash",
+                "C4": "PSP\nComercial",
+                "C5": "Adjust the integration that we currently have with PayValida for solving an incident presented in the collection of Kushki references."
+            },
+            {
+                "C0": "PRE-479",
+                "C1": "\ud83c\uddf2\ud83c\uddfd MX - Transfer In - Cuenta Clave \u00danica + Citibanamex",
+                "C2": "KPF-110",
+                "C3": "Payment Features",
+                "C4": "PSP\nComercial",
+                "C5": "Set Clabe Account Reuse + Reference Change"
+            },
+            {
+                "C0": "PRE-480",
+                "C1": "\ud83c\udde8\ud83c\uddf4 CO- Brindar los motivos de denegaciones de PSE a los comercios",
+                "C2": "KPF-118",
+                "C3": "Rails and Cash",
+                "C4": "PSP\nComercial",
+                "C5": "Context:\nCurrently PSE sends the Rejection Code in the GetTransactioninformation method, and the field is called autorizationID.\n\nToday the Kushki linked merchants in Colombia do not have a report in console and reporting in which they can identify the code and the reason for the rejection.\n\nObjectives:\n\n    Identify the causes of PSE rejection associated with the codes sent by PSE in the transaction messaging.\n    Link the reasons to the codes in a table that allows to deliver it in the console and reporting.\n    Homologate PSE codes and causes to an internal coding that allows to deliver to merchants information from both sources (PSE-KUSHKI).\n\nGoals:\n\nTo provide merchants with valuable information in the identification of rejection reasons for PSE in Colombia as a means of payment.\n\nRisks\nLoss of customers by comparison with other competitors in the market that do provide this information.\n\nPRD: https://kushki.atlassian.net/wiki/spaces/EDP/pages/2754446631/CO-+C+C+rejection+codes+for+PSE+in+Console."
+            },
+            {
+                "C0": "PRE-481",
+                "C1": "\ud83c\udde8\ud83c\uddf1 CL - Banco de Chile - Transfer out (parte I) ",
+                "C2": "KPF-100",
+                "C3": "Payment Features",
+                "C4": "Comercial",
+                "C5": "h2. Goals\n\n# To facilitate the process of sending information to businesses to transfer out in Chile.\n\nh2. Objectives\n\n# Adapt the current Transfer Out Api for Chile.\n# Allow file uploading through Console."
+            },
+            {
+                "C0": "PRE-484",
+                "C1": "\ud83c\udf0e GL - Reportes Regulatorios Mastercard",
+                "C2": "KPF-849",
+                "C3": "Riesgos / Compliance",
+                "C4": "Adquirencia",
+                "C5": "No Description"
+            },
+            {
+                "C0": "PRE-485",
+                "C1": "\ud83c\udf0e GL - Reportes Regulatorios Visa",
+                "C2": "KPF-848",
+                "C3": "Riesgos / Compliance",
+                "C4": "Adquirencia",
+                "C5": "No Description"
+            },
+            {
+                "C0": "PRE-486",
+                "C1": "\ud83c\udde8\ud83c\uddf1 CL - Reportes Regulatorios CMF (Incidentes de Ciberseguridad)",
+                "C2": "KPF-885",
+                "C3": "Riesgos / Compliance",
+                "C4": "Adquirencia",
+                "C5": "No Description"
+            },
+            {
+                "C0": "PRE-488",
+                "C1": "\ud83c\udf0e GL \u2013 Ajustes Masificaci\u00f3n 3DS",
+                "C2": "KPF-121",
+                "C3": "Riesgos / Compliance",
+                "C4": "PSP\nRiesgos",
+                "C5": "No Description"
+            },
+            {
+                "C0": "PRE-488",
+                "C1": "\ud83c\udf0e GL \u2013 Ajustes Masificaci\u00f3n 3DS",
+                "C2": "KPF-562",
+                "C3": "Riesgos / Compliance",
+                "C4": "PSP\nRiesgos",
+                "C5": "No Description"
+            },
+            {
+                "C0": "PRE-507",
+                "C1": " \ud83c\udde8\ud83c\uddf4 CO- EDD Camara de Comercio Bogota - Compra Masiva",
+                "C2": "KPF-843",
+                "C3": "Strategic Account",
+                "C4": "Strategic Accounts",
+                "C5": "No Description"
+            },
+            {
+                "C0": "PRE-508",
+                "C1": "\ud83c\udde8\ud83c\uddf4  CO- EDD Camara de Comercio Bogota - Compra Simple",
+                "C2": "KPF-842",
+                "C3": "Strategic Account",
+                "C4": "Strategic Accounts",
+                "C5": "No Description"
+            },
+            {
+                "C0": "PRE-509",
+                "C1": "\ud83c\uddea\ud83c\udde8 EC - ANT (Agencia Nacional del Tr\u00e1nsito Ecuador)",
+                "C2": "KPF-11",
+                "C3": "Strategic Account",
+                "C4": "Strategic Accounts",
+                "C5": "Create a Web Portal through which end customers can make payments for the services provided by the National Transit Agency in Ecuador (ANT)."
+            },
+            {
+                "C0": "PRE-510",
+                "C1": "\ud83c\udde8\ud83c\uddf4 CO - EDD (Emisi\u00f3n Manual, Raw Data y Centro de Costos)",
+                "C2": "KPF-251",
+                "C3": "Strategic Account",
+                "C4": "Strategic Accounts",
+                "C5": "No Description"
+            },
+            {
+                "C0": "PRE-511",
+                "C1": "\ud83c\udde8\ud83c\uddf4 CO - SNR - Proyectos Legales",
+                "C2": "KPF-382",
+                "C3": "Strategic Account",
+                "C4": "Strategic Accounts",
+                "C5": "The objective of this improvement is the technical integration with the Proyectos legales company for the issuance and Certificates review, which will allow a lower purchase cost compared to SNR and enable Backoffice in Kushki to monitor the operation."
+            },
+            {
+                "C0": "PRE-512",
+                "C1": "\ud83c\udde8\ud83c\uddf4 CO - Ajustes en SNR",
+                "C2": "KPF-408",
+                "C3": "Strategic Account",
+                "C4": "Strategic Accounts",
+                "C5": "Maintain the existing payment flow and recover users due to connection failures."
+            },
+            {
+                "C0": "PRE-514",
+                "C1": "\ud83c\udde8\ud83c\uddf4 CO - Usuario compra CTL y queda reflejado en portal EDD",
+                "C2": "KPF-435",
+                "C3": "Strategic Account",
+                "C4": "Strategic Accounts",
+                "C5": "No Description"
+            },
+            {
+                "C0": "PRE-515",
+                "C1": "\ud83c\uddea\ud83c\udde8 EC - Prefectura de Pichincha",
+                "C2": "KPF-401",
+                "C3": "Strategic Account",
+                "C4": "Strategic Accounts",
+                "C5": "Create a revenue collection portal for the municipality of Pichincha."
+            },
+            {
+                "C0": "PRE-516",
+                "C1": "\ud83c\udde8\ud83c\uddf4 CO - Estudio jur\u00eddico iTierra (Relativo a SNR) B2C",
+                "C2": "KPF-680",
+                "C3": "Strategic Account",
+                "C4": "Strategic Accounts",
+                "C5": "Issuance of a legal studies document through SNR's portal."
+            },
+            {
+                "C0": "PRE-522",
+                "C1": "\ud83c\udf0e GL - Creaci\u00f3n de niveles Customer Group y Store: Datos b\u00e1sicos",
+                "C2": "KPF-964",
+                "C3": "Adquirencia",
+                "C4": "Onboarding\nPSP\nAdquirencia",
+                "C5": "No Description"
+            },
+            {
+                "C0": "PRE-523",
+                "C1": "\ud83c\udf0e GL - Creaci\u00f3n de niveles owner, customer y branch: datos b\u00e1sicos",
+                "C2": "KPF-184",
+                "C3": "Adquirencia",
+                "C4": "Adquirencia",
+                "C5": "No Description"
+            },
+            {
+                "C0": "PRE-524",
+                "C1": "\ud83c\udf0e GL - Automatizacion de Tabla de BINES - Visa",
+                "C2": "KPF-952",
+                "C3": "Adquirencia",
+                "C4": "Finanzas & FinOps",
+                "C5": "No Description"
+            },
+            {
+                "C0": "PRE-525",
+                "C1": "\ud83c\uddf2\ud83c\uddfd MX - BillPocket Procesamiento Adquirente Prosa",
+                "C2": "KPF-658",
+                "C3": "Adquirencia",
+                "C4": "Adquirencia",
+                "C5": "No Description"
+            },
+            {
+                "C0": "PRE-527",
+                "C1": "\ud83c\udf0e GL - Sandbox ADQ TP",
+                "C2": "KPF-327",
+                "C3": "Adquirencia",
+                "C4": "Adquirencia",
+                "C5": "Link Contextualization and Ideation Workshop: https://www.figma.com/file/21TiW6h9iC56zlBwZbitT8/PRD-GL-Sandbox-adq-tp?node-id=0%3A1\n\nLink User Onboarding Analyst Person: https://www.figma.com/file/wajaHPMFiiRKdJYMDOS8X2/Proto-Persona-GL-Procesamiento-y-credencializaci%C3%B3n?node-id=0%3A1\n\nTP Sandbox and TNP Sandbox Navigation Map Link: https://www.mindomo.com/mindmap/configuracin-comercio-sandbox-tp-12b41065c94a4056913fb22112d75990\n\nLink PRD GL -- Sandbox ADQ TP: https://kushki.atlassian.net/wiki/spaces/EDP/pages/2822209915/GL+--+Sandbox+ADQ+TP"
+            },
+            {
+                "C0": "PRE-528",
+                "C1": "\ud83c\udf0e GL - API final H2H (POS)",
+                "C2": "KPF-316",
+                "C3": "Adquirencia",
+                "C4": "Adquirencia",
+                "C5": "No Description"
+            },
+            {
+                "C0": "PRE-529",
+                "C1": "\ud83c\udf0e GL - Administraci\u00f3n de nuevas jerarqu\u00edas consola",
+                "C2": "KPF-301",
+                "C3": "Adquirencia",
+                "C4": "Adquirencia",
+                "C5": "No Description"
+            },
+            {
+                "C0": "PRE-532",
+                "C1": "\ud83c\uddf2\ud83c\uddfd MX - Carga masiva de comercios",
+                "C2": "KPF-182",
+                "C3": "Adquirencia",
+                "C4": "Adquirencia",
+                "C5": "No Description"
+            },
+            {
+                "C0": "PRE-534",
+                "C1": "\ud83c\udf0e GL- Mejoras a m\u00f3dulo de reglas de primer nivel (consola 2.0 y 3.0) - Etapa 1 de 3 |  Generaci\u00f3n de nuevas condiciones para reglas + Control con nivel de aprobaci\u00f3n",
+                "C2": "KPF-103",
+                "C3": "Adquirencia",
+                "C4": "Onboarding\nAdquirencia\nRiesgos",
+                "C5": "Creation of a joint module for the acquisition and gateway models where the first level fraud prevention rules can be set up by the Risk team."
+            },
+            {
+                "C0": "PRE-535",
+                "C1": "\ud83c\udf0e GL- M\u00f3dulo de reglas de primer nivel Unificado- Fase 2 Configuraci\u00f3n reglas generales y espec\u00edficas, control duplicados y sincronizaci\u00f3n alertas",
+                "C2": "KPF-104",
+                "C3": "Adquirencia",
+                "C4": "Onboarding\nAdquirencia\nRiesgos",
+                "C5": "Creation of a joint module for the acquisition and gateway models where the first level fraud prevention rules can be set up by the Risk team."
+            },
+            {
+                "C0": "PRE-536",
+                "C1": "\ud83c\udf0e GL- M\u00f3dulo de reglas de primer nivel Unificado- Fase 3 Condiciones Listas Blancas",
+                "C2": "KPF-105",
+                "C3": "Adquirencia",
+                "C4": "Onboarding\nAdquirencia\nRiesgos",
+                "C5": "Creation of a joint module for the acquisition and gateway models where the first level fraud prevention rules can be set up by the Risk team."
+            },
+            {
+                "C0": "PRE-537",
+                "C1": "\ud83c\uddf2\ud83c\uddfd MX - Automatizaci\u00f3n POSRE06",
+                "C2": "KPF-343",
+                "C3": "Adquirencia",
+                "C4": "Adquirencia",
+                "C5": "No Description"
+            },
+            {
+                "C0": "PRE-543",
+                "C1": "\ud83c\udde8\ud83c\uddf4 CO- EDD Camara de Comercio Bogota - Comunicacion con el API",
+                "C2": "KPF-841",
+                "C3": "Strategic Account",
+                "C4": "-",
+                "C5": "-"
+            },
+            {
+                "C0": "PRE-547",
+                "C1": "\ud83c\udde8\ud83c\uddf4 CO - Certificado no propiedad B2C - Creaci\u00f3n del Portal",
+                "C2": "KPF-822",
+                "C3": "Strategic Account",
+                "C4": "-",
+                "C5": "-"
+            },
+            {
+                "C0": "PRE-548",
+                "C1": "\ud83c\udde8\ud83c\uddf4 CO - Certificado no propiedad B2C - Facturaci\u00f3n y Checkout",
+                "C2": "KPF-823",
+                "C3": "Strategic Account",
+                "C4": "-",
+                "C5": "-"
+            },
+            {
+                "C0": "PRE-551",
+                "C1": "\ud83c\udde8\ud83c\uddf4 CO - Certificado no propiedad B2B  -  Integraci\u00f3n API Externo",
+                "C2": "KPF-827",
+                "C3": "Strategic Account",
+                "C4": "Strategic Accounts",
+                "C5": "-"
+            },
+            {
+                "C0": "PRE-552",
+                "C1": "\ud83c\udde8\ud83c\uddf4 CO - Certificado no propiedad B2B  - Disponibilizar API Reseller de emisiones",
+                "C2": "KPF-828",
+                "C3": "Strategic Account",
+                "C4": "Strategic Accounts",
+                "C5": "-"
+            },
+            {
+                "C0": "PRE-553",
+                "C1": "\ud83c\udde8\ud83c\uddf4 CO - Certificado no propiedad B2B  - Emisi\u00f3n individual y Masiva",
+                "C2": "KPF-829",
+                "C3": "Strategic Account",
+                "C4": "Strategic Accounts",
+                "C5": "-"
+            },
+            {
+                "C0": "PRE-554",
+                "C1": "\ud83c\udde8\ud83c\uddf4 CO - Certificado no propiedad B2B  - Dashboard y Facturaci\u00f3n",
+                "C2": "KPF-830",
+                "C3": "Strategic Account",
+                "C4": "Strategic Accounts",
+                "C5": "-"
+            },
+            {
+                "C0": "PRE-560",
+                "C1": "\ud83c\udf0e GL - Automatizacion de Tabla de BINES - MC",
+                "C2": "KPF-953",
+                "C3": "Adquirencia",
+                "C4": "-",
+                "C5": "-"
+            },
+            {
+                "C0": "PRE-564",
+                "C1": "\ud83c\udde8\ud83c\uddf1 CL - Reportes Regulatorios CMF (Antecedentes generales)",
+                "C2": "KPF-891",
+                "C3": "Adquirencia",
+                "C4": "-",
+                "C5": "-"
+            },
+            {
+                "C0": "PRE-565",
+                "C1": "\ud83c\udde8\ud83c\uddf1 CL - Reportes Regulatorios CMF (Entidades afiliadas por operadores)",
+                "C2": "KPF-892",
+                "C3": "Adquirencia",
+                "C4": "-",
+                "C5": "-"
+            },
+            {
+                "C0": "PRE-566",
+                "C1": "\ud83c\udde8\ud83c\uddf1 CL - Reportes Regulatorios CMF (Reserva de liquidez de operadores)",
+                "C2": "KPF-897",
+                "C3": "Adquirencia",
+                "C4": "-",
+                "C5": "-"
+            },
+            {
+                "C0": "PRE-567",
+                "C1": "\ud83c\udde8\ud83c\uddf1 CL - Reportes Regulatorios CMF (Resumen de informaci\u00f3n financiera consolidada de operadores)",
+                "C2": "KPF-898",
+                "C3": "Adquirencia",
+                "C4": "-",
+                "C5": "-"
+            },
+            {
+                "C0": "PRE-568",
+                "C1": "\ud83c\udde8\ud83c\uddf1 CL - Reportes Regulatorios CMF (Pago a entidades afiliadas)",
+                "C2": "KPF-899",
+                "C3": "Adquirencia",
+                "C4": "-",
+                "C5": "-"
+            },
+            {
+                "C0": "PRE-578",
+                "C1": "\ud83c\udde8\ud83c\uddf1 CL - Comprobante de Pago TNP - Voucher",
+                "C2": "KPF-940",
+                "C3": "Payment Features",
+                "C4": "-",
+                "C5": "-"
+            },
+            {
+                "C0": "PRE-579",
+                "C1": "\ud83c\udf0e GL - Voucher eCommerce",
+                "C2": "KPF-941",
+                "C3": "Payment Features",
+                "C4": "-",
+                "C5": "-"
+            },
+            {
+                "C0": "PRE-581",
+                "C1": "\ud83c\udde8\ud83c\uddf1 CL - Cambios en conversion y fecha de emision de facturas",
+                "C2": "KPF-204",
+                "C3": "Core",
+                "C4": "-",
+                "C5": "-"
+            },
+            {
+                "C0": "PRE-582",
+                "C1": "\ud83c\udf0e GL - Estandarizacion de cortes y mejoras dashboard facturaci\u00f3n",
+                "C2": "KPF-205",
+                "C3": "Core",
+                "C4": "-",
+                "C5": "-"
+            },
+            {
+                "C0": "PRE-589",
+                "C1": "\ud83c\udf0e GL - Wolfseller Magento",
+                "C2": "KPF-878",
+                "C3": "Core",
+                "C4": "-",
+                "C5": "-"
+            },
+            {
+                "C0": "PRE-592",
+                "C1": "\ud83c\uddf5\ud83c\uddea PE - Certificaci\u00f3n de operaciones Domesticas MC (CERTIFICACION)",
+                "C2": "KPF-860",
+                "C3": "Payment Features",
+                "C4": "-",
+                "C5": "-"
+            },
+            {
+                "C0": "PRE-596",
+                "C1": "\ud83c\udf0e GL - Unificacion Onboarding en Salesforce",
+                "C2": "KPF-976",
+                "C3": "Core",
+                "C4": "-",
+                "C5": "-"
+            },
+            {
+                "C0": "PRE-598",
+                "C1": "\ud83c\udf0e GL - Creaci\u00f3n de tarifas nivel jer\u00e1rquico Store",
+                "C2": "KPF-965",
+                "C3": "Core",
+                "C4": "-",
+                "C5": "Incorporate the new Store hierarchy in the CRUD rate logic."
+            },
+            {
+                "C0": "PRE-599",
+                "C1": "\ud83c\udf0e GL - Creacion de procesadores",
+                "C2": "KPF-926",
+                "C3": "Core",
+                "C4": "-",
+                "C5": "-"
+            },
+            {
+                "C0": "PRE-600",
+                "C1": "\ud83c\udf0e GL - Webhooks Store",
+                "C2": "KPF-982",
+                "C3": "Core",
+                "C4": "-",
+                "C5": "-"
+            },
+            {
+                "C0": "PRE-601",
+                "C1": "\ud83c\udf0e GL -  Creacion de reglas de enrutamiento Store",
+                "C2": "KPF-927",
+                "C3": "Core",
+                "C4": "-",
+                "C5": "-"
+            },
+            {
+                "C0": "PRE-602",
+                "C1": "\ud83c\udf0e GL - Creacion de diferidos Store",
+                "C2": "KPF-928",
+                "C3": "Core",
+                "C4": "-",
+                "C5": "-"
+            },
+            {
+                "C0": "PRE-603",
+                "C1": "\ud83c\udf0e GL - Creacion de servicios  Store",
+                "C2": "KPF-929",
+                "C3": "Core",
+                "C4": "-",
+                "C5": "-"
+            },
+            {
+                "C0": "PRE-604",
+                "C1": "\ud83c\udf0e GL - Creaci\u00f3n API branches para PSP",
+                "C2": "KPF-966",
+                "C3": "Core",
+                "C4": "-",
+                "C5": "-"
+            },
+            {
+                "C0": "PRE-605",
+                "C1": "\ud83c\udf0e GL - Administraci\u00f3n de nuevas jerarqu\u00edas",
+                "C2": "KPF-301",
+                "C3": "Core",
+                "C4": "-",
+                "C5": "-"
+            },
+            {
+                "C0": "PRE-606",
+                "C1": "\ud83c\udf0e GL - CRUD creaci\u00f3n de comercios - configuraci\u00f3n de tarifas para niveles owner, customer y branch",
+                "C2": "KPF-782",
+                "C3": "Core",
+                "C4": "-",
+                "C5": "-"
+            },
+            {
+                "C0": "PRE-611",
+                "C1": "\ud83c\udf0e GL - Creacion de webhooks",
+                "C2": "KPF-984",
+                "C3": "Core",
+                "C4": "-",
+                "C5": "-"
+            },
+            {
+                "C0": "PRE-612",
+                "C1": "\ud83c\udf0e GL- Migraci\u00f3n de comercios OCB",
+                "C2": "KPF-834",
+                "C3": "Core",
+                "C4": "-",
+                "C5": "-"
+            },
+            {
+                "C0": "PRE-613",
+                "C1": "\ud83c\udf0e GL - WC1 para CRUD de comercios",
+                "C2": "KPF-783",
+                "C3": "Core",
+                "C4": "-",
+                "C5": "-"
+            },
+            {
+                "C0": "PRE-615",
+                "C1": "\ud83c\udf0e GL - Afiliaci\u00f3n inmediata para CRUD de comercio",
+                "C2": "KPF-781",
+                "C3": "Core",
+                "C4": "-",
+                "C5": "-"
+            },
+            {
+                "C0": "PRE-616",
+                "C1": "\ud83c\uddf5\ud83c\uddea PE - Conciliaci\u00f3n transaccional Kushki Adq y Pasarela auto. cargar en m\u00f3dulo (Back)",
+                "C2": "KPF-696",
+                "C3": "Core",
+                "C4": "-",
+                "C5": "-"
+            },
+            {
+                "C0": "PRE-617",
+                "C1": "\ud83c\uddf5\ud83c\uddea PE - Conciliaci\u00f3n transaccional Kushki Adq y Pasarela auto. cargar en m\u00f3dulo (Front)",
+                "C2": "KPF-696",
+                "C3": "Core",
+                "C4": "-",
+                "C5": "-"
+            },
+            {
+                "C0": "PRE-618",
+                "C1": "\ud83c\udde8\ud83c\uddf1 CL - Conciliaci\u00f3n transaccional Kushki Adq y Pasarela auto. cargar en m\u00f3dulo (Layout)",
+                "C2": "KPF-696",
+                "C3": "Core",
+                "C4": "Finanzas & FinOps\nAdquirencia",
+                "C5": "-"
+            },
+            {
+                "C0": "PRE-622",
+                "C1": "\ud83c\udde8\ud83c\uddf4 CO - Certificaci\u00f3n de operaciones Domesticas MC (CERTIFICACION)",
+                "C2": "KPF-862",
+                "C3": "Payment Features",
+                "C4": "-",
+                "C5": "-"
+            },
+            {
+                "C0": "PRE-633",
+                "C1": "\ud83c\uddf2\ud83c\uddfd MX - M\u00f3dulo de reembolsos, devoluciones y cancelaciones Card (Adquirencia)",
+                "C2": "KPF-165",
+                "C3": "Core",
+                "C4": "Finanzas & FinOps",
+                "C5": "Creation of a module for the administration and execution of reimbursements for Card transactions generated from Acquiring."
+            },
+            {
+                "C0": "PRE-634",
+                "C1": "\ud83c\uddf2\ud83c\uddfd MX - M\u00f3dulo de conciliaci\u00f3n bancaria",
+                "C2": "KPF-163",
+                "C3": "Core",
+                "C4": "Finanzas & FinOps",
+                "C5": "Develop a module that presents all transactions that require reconciliation at the bank level for Mexico of transactions processed under the Acquirer model."
+            },
+            {
+                "C0": "PRE-635",
+                "C1": "\ud83c\udde8\ud83c\uddf4 CO - Retenciones modelo informal pasarela",
+                "C2": "KPF-209",
+                "C3": "Core",
+                "C4": "Finanzas & FinOps",
+                "C5": "In Colombia, the tax authority requires that all payment generators generate withholding taxes to businesses, so once Kushki is granted the license of withholding agents, the flow to proceed with these withholdings must be applied."
+            },
+            {
+                "C0": "PRE-637",
+                "C1": "\ud83c\uddf5\ud83c\uddea PE- Proceso conciliaci\u00f3n Camara local MC",
+                "C2": "KPF-571",
+                "C3": "Core",
+                "C4": "-",
+                "C5": "This project refers to the reconciliation process with the local Mastercard chamber."
+            },
+            {
+                "C0": "PRE-638",
+                "C1": "\ud83c\uddf5\ud83c\uddea PE- Proceso conciliaci\u00f3n Camara local Visa",
+                "C2": "KPF-461",
+                "C3": "Core",
+                "C4": "-",
+                "C5": "This project refers to the conciliation process with the local VISA chamber."
+            },
+            {
+                "C0": "PRE-640",
+                "C1": "\ud83c\uddf2\ud83c\uddfd MX - M\u00f3dulo de conciliaci\u00f3n transaccional Adq Pasarela",
+                "C2": "KPF-162",
+                "C3": "Core",
+                "C4": "Finanzas & FinOps",
+                "C5": "Generate a reconciliation process for card transactions in Mexico."
+            },
+            {
+                "C0": "PRE-647",
+                "C1": "\ud83c\udde8\ud83c\uddf1 CL - Reporte para ente tributario SII dashboard de reporte y generaci\u00f3n autom\u00e1tica",
+                "C2": "KPF-416",
+                "C3": "Core",
+                "C4": "Governance & Compliance\nFinanzas & FinOps",
+                "C5": "In Chile, the SII tax authority requires all DSPPs and PSPs to generate a daily report of information regarding card transactions on the previous day's sales, according to Resolution SII 76 of 2021."
+            },
+            {
+                "C0": "PRE-666",
+                "C1": "\ud83c\uddf5\ud83c\uddea PE - CL - CO Disputas Emisores Backend",
+                "C2": "KPF-329",
+                "C3": "Core",
+                "C4": "Adquirencia",
+                "C5": "Define the process within the business for the flow of disputes."
+            },
+            {
+                "C0": "PRE-666",
+                "C1": "\ud83c\uddf5\ud83c\uddea PE - CL - CO Disputas Emisores Backend",
+                "C2": "KPF-330",
+                "C3": "Core",
+                "C4": "Adquirencia",
+                "C5": "Define the process within the business for the flow of disputes."
+            },
+            {
+                "C0": "PRE-666",
+                "C1": "\ud83c\uddf5\ud83c\uddea PE - CL - CO Disputas Emisores Backend",
+                "C2": "KPF-331",
+                "C3": "Core",
+                "C4": "Adquirencia",
+                "C5": "Define the process within the business for the flow of disputes."
+            },
+            {
+                "C0": "PRE-668",
+                "C1": "\ud83c\udf0e GL - Cybersource - (Token Visa)",
+                "C2": "KPF-348",
+                "C3": "Payment Features",
+                "C4": "Adquirencia",
+                "C5": "-"
+            },
+            {
+                "C0": "PRE-669",
+                "C1": "\ud83c\udf0e GL - API final H2H (Ecommerce)",
+                "C2": "KPF-591",
+                "C3": "Final",
+                "C4": "Adquirencia",
+                "C5": "-"
+            },
+            {
+                "C0": "PRE-679",
+                "C1": "\ud83c\udf0e GL - Integraci\u00f3n Shopify",
+                "C2": "KPF-423",
+                "C3": "Final",
+                "C4": "Partnerships",
+                "C5": "Shopify integration"
+            },
+            {
+                "C0": "PRE-683",
+                "C1": "\ud83c\udf0e GL - Preparaci\u00f3n para Bines de 8 d\u00edgitos (cambios internos)",
+                "C2": "KPF-381",
+                "C3": "Payment integrations",
+                "C4": "Governance & Compliance",
+                "C5": "-"
+            },
+            {
+                "C0": "PRE-685",
+                "C1": "\ud83c\udde8\ud83c\uddf1 CL - Integraci\u00f3n API REST WebPay Plus (Transbank)",
+                "C2": "KPF-144",
+                "C3": "Payment integrations",
+                "C4": "Partnerships",
+                "C5": "-"
+            },
+            {
+                "C0": "PRE-687",
+                "C1": "\ud83c\uddf2\ud83c\uddfd MX - Transfer out STP",
+                "C2": "KPF-853",
+                "C3": "Payment integrations",
+                "C4": "Comercial",
+                "C5": "To strengthen KUSHKI's strategy in the Mexican market, it is necessary to integrate the transfer out service with STP, enable the transfer out product in Mexico for retailers, and provide new payment methods to retail users."
+            },
+            {
+                "C0": "PRE-750",
+                "C1": "\ud83c\udde8\ud83c\uddf1 CL - Proceso de Conciliaci\u00f3n Transaccional VISA",
+                "C2": "KPF-261",
+                "C3": "Core",
+                "C4": "Adquirencia",
+                "C5": "-"
+            },
+            {
+                "C0": "PRE-756",
+                "C1": "\ud83c\udf0e GL - Creaci\u00f3n flujos de onboarding",
+                "C2": "KPF-170",
+                "C3": "Core",
+                "C4": "-",
+                "C5": "-"
+            },
+            {
+                "C0": "PRE-757",
+                "C1": "\ud83c\udf0e GL- Servicios adicionales PSP",
+                "C2": "KPF-803",
+                "C3": "Core",
+                "C4": "-",
+                "C5": "Creation of affiliation forms and workflows for the onboarding of acquisition and PSP clients."
+            },
+            {
+                "C0": "PRE-762",
+                "C1": "\ud83c\udf0e GL - Proceso de Conciliaci\u00f3n Transaccional MASTERCARD",
+                "C2": "KPF-79",
+                "C3": "Core",
+                "C4": "-",
+                "C5": "-"
+            },
+            {
+                "C0": "PRE-769",
+                "C1": "\ud83c\udf0e GL - Proceso de Conciliaci\u00f3n Transaccional VISA",
+                "C2": "KPF-78",
+                "C3": "Core",
+                "C4": "-",
+                "C5": "-"
+            },
+            {
+                "C0": "PRE-772",
+                "C1": "Boveda Unificada Pasarela - Adquirencia",
+                "C2": "KPF-574",
+                "C3": "Core",
+                "C4": "Adquirencia",
+                "C5": "-"
+            },
+            {
+                "C0": "PRE-773",
+                "C1": "\ud83c\udf0e GL - Layout de Salida Conciliaci\u00f3n Transaccional por Cliente",
+                "C2": "KPF-402",
+                "C3": "Core",
+                "C4": "-",
+                "C5": "-"
+            },
+            {
+                "C0": "PRE-780",
+                "C1": "\ud83c\uddf5\ud83c\uddea PE - Certificaci\u00f3n de operaciones Domesticas VISA",
+                "C2": "KPF-451",
+                "C3": "Payment Features",
+                "C4": "Adquirencia",
+                "C5": "-"
+            },
+            {
+                "C0": "PRE-781",
+                "C1": "\ud83c\uddf5\ud83c\uddea PE - Certificaci\u00f3n de operaciones Domesticas VISA (DESARROLLO)",
+                "C2": "KPF-444",
+                "C3": "Payment Features",
+                "C4": "Adquirencia",
+                "C5": "-"
+            },
+            {
+                "C0": "PRE-782",
+                "C1": "\ud83c\udf0e GL - API Final H2H (Card, comisiones y suscripciones)",
+                "C2": "KPF-769",
+                "C3": "Final",
+                "C4": "-",
+                "C5": "-"
+            },
+            {
+                "C0": "PRE-785",
+                "C1": "\ud83c\uddf2\ud83c\uddfd MX - VISA",
+                "C2": "KPF-351",
+                "C3": "Payment Features",
+                "C4": "-",
+                "C5": "Mexico Certification"
+            },
+            {
+                "C0": "PRE-788",
+                "C1": "\ud83c\udf0e GL - 3DS 2.0 - cybersource - Mastercard",
+                "C2": "KPF-349",
+                "C3": "Payment integrations",
+                "C4": "Riesgos",
+                "C5": "Integrate Kushki processor/acquirer to 3DS through Cybersource for all countries where Kushki processor/acquirer will operate."
+            },
+            {
+                "C0": "PRE-791",
+                "C1": "\ud83c\uddf2\ud83c\uddfd MX - MC",
+                "C2": "KPF-346",
+                "C3": "Payment Features",
+                "C4": "-",
+                "C5": "Mexico Certification"
+            },
+            {
+                "C0": "PRE-794",
+                "C1": "\ud83c\udf0e GL - Sandbox TNP",
+                "C2": "KPF-344",
+                "C3": "Final",
+                "C4": "Adquirencia",
+                "C5": "The purpose of the feature is to allow customers of the Kushki acquirer/processor model to perform their integration tests and prepare for the certification with Kushki of the payment method.\nThe clients of this model could be merchants or payment gateways."
+            },
+            {
+                "C0": "PRE-797",
+                "C1": "PROSA - Ajuste TEF",
+                "C2": "KPF-342",
+                "C3": "Core",
+                "C4": "-",
+                "C5": "-"
+            },
+            {
+                "C0": "PRE-800",
+                "C1": "Creacion mensaje Base I Visa Validacion en archivo Base II",
+                "C2": "KPF-336",
+                "C3": "Payment Features",
+                "C4": "Adquirencia",
+                "C5": "-"
+            },
+            {
+                "C0": "PRE-803",
+                "C1": "\ud83c\udf0e GL - Componentes Consola",
+                "C2": "KPF-283",
+                "C3": "Core",
+                "C4": "-",
+                "C5": "-"
+            },
+            {
+                "C0": "PRE-804",
+                "C1": "\ud83c\udde8\ud83c\uddf1 CL - Integraci\u00f3n Transbank Modelo PSP - Parte 2",
+                "C2": "KPF-116",
+                "C3": "Payment Features",
+                "C4": "-",
+                "C5": "-"
+            },
+            {
+                "C0": "PRE-807",
+                "C1": "\ud83c\uddf5\ud83c\uddea PE - Certificaci\u00f3n de operaciones Domesticas MC (DESARROLLO)",
+                "C2": "KPF-445",
+                "C3": "Payment Features",
+                "C4": "Adquirencia",
+                "C5": "-"
+            },
+            {
+                "C0": "PRE-810",
+                "C1": "\ud83c\udde8\ud83c\uddf4 CO - Certificaci\u00f3n de operaciones Domesticas Visa (CERTIFICACION)",
+                "C2": "KPF-264",
+                "C3": "Payment Features",
+                "C4": "Adquirencia",
+                "C5": "Integrate the particularities of the domestic operations of the Visa brand in Colombia under the acquiring model Kushki processor by taking as a reference the global development with Visa already made for Mexico."
+            },
+            {
+                "C0": "PRE-813",
+                "C1": "\ud83c\udde8\ud83c\uddf4 CO - Certificaci\u00f3n de operaciones Domesticas MC (DESARROLLO)",
+                "C2": "KPF-263",
+                "C3": "Payment Features",
+                "C4": "Adquirencia",
+                "C5": "-"
+            },
+            {
+                "C0": "PRE-817",
+                "C1": "\ud83c\udf0e GL - Mejoras a Webcheckout (Bot\u00f3n de pagos)",
+                "C2": "KPF-749",
+                "C3": "Final",
+                "C4": "-",
+                "C5": "Implement improvements in Webcheckout that impact the correct functioning and performance of the new plugin for Shopify and for businesses or potential businesses that use Webcheckout."
+            },
+            {
+                "C0": "PRE-822",
+                "C1": "\ud83c\udf0e GL - Control de Reintentos",
+                "C2": "KPF-47",
+                "C3": "Payment integrations",
+                "C4": "-",
+                "C5": "-"
+            },
+            {
+                "C0": "PRE-823",
+                "C1": "Cobro servicio 3DS",
+                "C2": "KPF-670",
+                "C3": "Payment Features",
+                "C4": "-",
+                "C5": "-"
+            },
+            {
+                "C0": "PRE-826",
+                "C1": "Load Balancer Procesadores",
+                "C2": "KPF-568",
+                "C3": "Core",
+                "C4": "Adquirencia",
+                "C5": "-"
+            },
+            {
+                "C0": "PRE-827",
+                "C1": "\ud83c\uddea\ud83c\udde8 EC - Refactor Liquidaciones Ecuador-Archivo Banco Internacional",
+                "C2": "KPF-978",
+                "C3": "Core",
+                "C4": "-",
+                "C5": "-"
+            },
+            {
+                "C0": "PRE-830",
+                "C1": "\ud83c\udf0e GL - Clonaci\u00f3n de customer",
+                "C2": "KPF-972",
+                "C3": "Adquirencia",
+                "C4": "-",
+                "C5": "-"
+            },
+            {
+                "C0": "PRE-835",
+                "C1": "\ud83c\udf0e GL - Ajustes en creaci\u00f3n de procesador de Tarjeta (quitar logica de reglas de ecommerce)",
+                "C2": "KPF-565",
+                "C3": "Payment Features",
+                "C4": "Adquirencia",
+                "C5": "-"
+            },
+            {
+                "C0": "PRE-836",
+                "C1": "AC / GL / Flujo de Conciliaci\u00f3n E2E",
+                "C2": "KPF-660",
+                "C3": "Payment Features",
+                "C4": "-",
+                "C5": "-"
+            },
+            {
+                "C0": "PRE-837",
+                "C1": "\ud83c\udde8\ud83c\uddf1 CL - Proceso de Conciliaci\u00f3n Transaccional MASTERCARD",
+                "C2": "KPF-650",
+                "C3": "Core",
+                "C4": "-",
+                "C5": "-"
+            },
+            {
+                "C0": "PRE-840",
+                "C1": "\ud83c\udde8\ud83c\uddf4 CO - Ajustes control de reintentos Redeban",
+                "C2": "KPF-554",
+                "C3": "Payment Features",
+                "C4": "-",
+                "C5": "-"
+            },
+            {
+                "C0": "PRE-843",
+                "C1": "\ud83c\udf0e GL - Mejoras y controles adicionales Ledger (Golden Record)",
+                "C2": "KPF-622",
+                "C3": "Riesgos / Compliance",
+                "C4": "Governance & Compliance\nFinanzas & FinOps\nRiesgos",
+                "C5": "This is a project that complements the GL project - Centralized transactional information DB for its migration stage to Mongo DB."
+            },
+            {
+                "C0": "PRE-846",
+                "C1": "\ud83c\udde8\ud83c\uddf4 CO - Proceso de Conciliaci\u00f3n Transaccional VISA",
+                "C2": "KPF-583",
+                "C3": "Core",
+                "C4": "-",
+                "C5": "-"
+            },
+            {
+                "C0": "PRE-847",
+                "C1": "\ud83c\udde8\ud83c\uddf4 CO - Proceso de Conciliaci\u00f3n Transaccional MASTERCARD",
+                "C2": "KPF-580",
+                "C3": "Core",
+                "C4": "-",
+                "C5": "-"
+            },
+            {
+                "C0": "PRE-851",
+                "C1": "\ud83c\udde8\ud83c\uddf4 CO- Modal / Servicio de PSE (Colombia) no disponible.",
+                "C2": "KPF-870",
+                "C3": "Payment Features",
+                "C4": "Comercial",
+                "C5": "Context\n\nThe transfer processor PSE of Colombia has presented intermittencies, for such reason it is necessary to communicate to the end user to indicate him to try later to make the transaction or to select another means of payment.\n\n*Scope\n\n* Applies to country Colombia\n* This logic is for PSE and PSE advances only.\n* When the Processor is not available at the moment the user is making a transfer in, the following mockup must be displayed (see image and link) otherwise the current logic must be kept."
+            },
+            {
+                "C0": "PRE-856",
+                "C1": "\ud83c\uddf2\ud83c\uddfd MX - Facturapi - Cancelaci\u00f3n o anulaciones de facturas",
+                "C2": "KPF-201",
+                "C3": "Core",
+                "C4": "-",
+                "C5": "-"
+            },
+            {
+                "C0": "PRE-864",
+                "C1": "\ud83c\udde8\ud83c\uddf1 CL - Certificaci\u00f3n de operaciones Domesticas Visa (CERTIFICACION)",
+                "C2": "KPF-479",
+                "C3": "Payment Features",
+                "C4": "Adquirencia",
+                "C5": "-"
+            },
+            {
+                "C0": "PRE-867",
+                "C1": "\ud83c\udde8\ud83c\uddf4 CO - Adici\u00f3n campos facturaci\u00f3n EDD",
+                "C2": "KPF-441",
+                "C3": "Strategic Account",
+                "C4": "Strategic Accounts",
+                "C5": "-"
+            },
+            {
+                "C0": "PRE-870",
+                "C1": "\ud83c\uddea\ud83c\udde8 EC - KFC Migraci\u00f3n de suscripciones",
+                "C2": "KPF-44",
+                "C3": "Payment Features",
+                "C4": "-",
+                "C5": "-"
+            },
+            {
+                "C0": "PRE-873",
+                "C1": "\ud83c\udde8\ud83c\uddf4 CO - M\u00f3dulo de conciliaci\u00f3n con procesadores Card Kushki Adquirencia - Kushki Pasarela",
+                "C2": "KPF-199",
+                "C3": "Core",
+                "C4": "-",
+                "C5": "-"
+            },
+            {
+                "C0": "PRE-876",
+                "C1": "\ud83c\udf0e GL - Migraci\u00f3n de estructuras de bases de datos (Golden Record Transacciones)",
+                "C2": "KPF-193",
+                "C3": "Core",
+                "C4": "-",
+                "C5": "-"
+            },
+            {
+                "C0": "PRE-882",
+                "C1": "\ud83c\udde8\ud83c\uddf1 CL - Dep\u00f3sito de informe mensual Transbank",
+                "C2": "KPF-146",
+                "C3": "Final",
+                "C4": "-",
+                "C5": "-"
+            },
+            {
+                "C0": "PRE-883",
+                "C1": "Mensajer\u00eda Amex y Diners + CoF, Suscripciones, autorizaci\u00f3n y SFTP",
+                "C2": "KPF-126",
+                "C3": "Payment integrations",
+                "C4": "-",
+                "C5": "-"
+            },
+            {
+                "C0": "PRE-886",
+                "C1": "\ud83c\udde8\ud83c\uddf4 CO - Credibanco 3DS",
+                "C2": "KPF-124",
+                "C3": "Payment Features",
+                "C4": "-",
+                "C5": "-"
+            },
+            {
+                "C0": "PRE-889",
+                "C1": "\ud83c\udde8\ud83c\uddf4 CO / PE / CL - Ajustes en API Ecommerce Adquirencia y Diferidos en Kushki Pasarela",
+                "C2": "KPF-123",
+                "C3": "Payment integrations",
+                "C4": "-",
+                "C5": "-"
+            },
+            {
+                "C0": "PRE-909",
+                "C1": "\ud83c\udf0e GL - Edici\u00f3n de Campos monto y Descripci\u00f3n de tarjetas de detalle",
+                "C2": "KPF-981",
+                "C3": "Core",
+                "C4": "-",
+                "C5": "-"
+            },
+            {
+                "C0": "PRE-912",
+                "C1": "\ud83c\udf0e GL - WC1 para Salesforce comercios 2.0",
+                "C2": "KPF-833",
+                "C3": "Riesgos / Compliance",
+                "C4": "Governance & Compliance\nOnboarding",
+                "C5": "Automated Shareholders and Legal Representatives screening process from Salesforce in WC1."
+            }
+        ]
+    }
+]
