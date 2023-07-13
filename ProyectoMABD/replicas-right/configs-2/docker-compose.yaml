@@ -1,0 +1,35 @@
+version: '3'  # Versión de Docker Compose utilizada
+
+services:  # Definición de servicios
+
+  config4:  # Primer servicio: config4
+    container_name: config4  # Nombre del contenedor
+    image: mongo  # Imagen de Docker utilizada (MongoDB)
+    command: mongod --configsvr --replSet configs2 --port 27017 --dbpath /data/db  # Comando para ejecutar el servidor de configuración
+    ports:
+      - 45005:27017  # Mapeo de puertos: puerto del host:puerto del contenedor
+    volumes:
+      - config4:/data/db  # Volumen utilizado para almacenar los datos de la base de datos
+
+  config5:  # Segundo servicio: config5
+    container_name: config5  # Nombre del contenedor
+    image: mongo  # Imagen de Docker utilizada (MongoDB)
+    command: mongod --configsvr --replSet configs2 --port 27017 --dbpath /data/db  # Comando para ejecutar el servidor de configuración
+    ports:
+      - 45006:27017  # Mapeo de puertos: puerto del host:puerto del contenedor
+    volumes:
+      - config5:/data/db  # Volumen utilizado para almacenar los datos de la base de datos
+  
+  config6:  # Tercer servicio: config6
+    container_name: config6  # Nombre del contenedor
+    image: mongo  # Imagen de Docker utilizada (MongoDB)
+    command: mongod --configsvr --replSet configs2 --port 27017 --dbpath /data/db  # Comando para ejecutar el servidor de configuración
+    ports:
+      - 45007:27017  # Mapeo de puertos: puerto del host:puerto del contenedor
+    volumes:
+      - config6:/data/db  # Volumen utilizado para almacenar los datos de la base de datos
+
+volumes:  # Definición de volúmenes
+  config4: {}  # Volumen para el servicio config4
+  config5: {}  # Volumen para el servicio config5
+  config6: {}  # Volumen para el servicio config6

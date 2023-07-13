@@ -1,0 +1,35 @@
+version: '3'  # Versión de Docker Compose utilizada
+
+services:  # Definición de servicios
+
+  mongo4:  # Primer servicio: mongo4
+    container_name: mongo4  # Nombre del contenedor
+    image: mongo  # Imagen de Docker utilizada (MongoDB)
+    command: mongod --shardsvr --replSet replicasM2 --port 27017 --dbpath /data/db  # Comando para ejecutar el servidor de shard
+    ports:
+      - 55005:27017  # Mapeo de puertos: puerto del host:puerto del contenedor
+    volumes:
+      - mongo4:/data/db  # Volumen utilizado para almacenar los datos de la base de datos
+
+  mongo5:  # Segundo servicio: mongo5
+    container_name: mongo5  # Nombre del contenedor
+    image: mongo  # Imagen de Docker utilizada (MongoDB)
+    command: mongod --shardsvr --replSet replicasM2 --port 27017 --dbpath /data/db  # Comando para ejecutar el servidor de shard
+    ports:
+      - 55006:27017  # Mapeo de puertos: puerto del host:puerto del contenedor
+    volumes:
+      - mongo5:/data/db  # Volumen utilizado para almacenar los datos de la base de datos
+  
+  mongo6:  # Tercer servicio: mongo6
+    container_name: mongo6  # Nombre del contenedor
+    image: mongo  # Imagen de Docker utilizada (MongoDB)
+    command: mongod --shardsvr --replSet replicasM2 --port 27017 --dbpath /data/db  # Comando para ejecutar el servidor de shard
+    ports:
+      - 55007:27017  # Mapeo de puertos: puerto del host:puerto del contenedor
+    volumes:
+      - mongo6:/data/db  # Volumen utilizado para almacenar los datos de la base de datos
+
+volumes:  # Definición de volúmenes
+  mongo4: {}  # Volumen para el servicio mongo4
+  mongo5: {}  # Volumen para el servicio mongo5
+  mongo6: {}  # Volumen para el servicio mongo6

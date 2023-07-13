@@ -1,0 +1,10 @@
+version: '3'  # Versión de Docker Compose utilizada
+
+services:  # Definición de servicios
+
+  routing2:  # Servicio: routing2
+    container_name: routing2  # Nombre del contenedor
+    image: mongo  # Imagen de Docker utilizada (MongoDB)
+    command: mongos --configdb configs2/192.168.100.48:45005,192.168.100.48:45006,192.168.100.48:45007 --bind_ip 0.0.0.0 --port 27017
+    ports:
+      - 65002:27017  # Mapeo de puertos: puerto del host:puerto del contenedor

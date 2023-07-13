@@ -1,0 +1,92 @@
+# CONFIGURACION BASES DE DATOS 1
+docker-compose -f configs/docker-compose.yaml up -d
+mongosh mongodb://10.240.3.169:45001
+
+rs.initiate(
+  {
+    _id: "configs",
+    configsvr: true,
+    members: [
+      { _id : 0, host : "10.240.3.169:45001" },
+      { _id : 1, host : "10.240.3.169:45002" },
+      { _id : 2, host : "10.240.3.169:45003" }
+    ]
+  }
+)
+
+docker-compose -f masters/docker-compose.yaml up -d
+mongosh mongodb://10.240.3.169:55001
+
+rs.initiate(
+  {
+    _id: "replicasM",
+    members: [
+      { _id : 0, host : "10.240.3.169:55001" },
+      { _id : 1, host : "10.240.3.169:55002" },
+      { _id : 2, host : "10.240.3.169:55003" }
+    ]
+  }
+)
+
+docker-compose -f routing/docker-compose.yaml up -d
+mongosh mongodb://10.240.3.169:65000
+sh.addShard("replicasM/10.240.3.169:55002,10.240.3.169:55003")
+-----------------------------------------------------------------------------------
+# CONFIGURACION BASES DE DATOS 2
+docker-compose -f configs-2/docker-compose.yaml up -d
+mongosh mongodb://10.240.3.169:45005
+
+rs.initiate(
+  {
+    _id: "configs2",
+    configsvr: true,
+    members: [
+      { _id : 0, host : "10.240.3.169:45005" },
+      { _id : 1, host : "10.240.3.169:45006" },
+      { _id : 2, host : "10.240.3.169:45007" }
+    ]
+  }
+)
+
+docker-compose -f masters-2/docker-compose.yaml up -d
+mongosh mongodb://10.240.3.169:55005
+
+rs.initiate(
+  {
+    _id: "replicasM2",
+    members: [
+      { _id : 0, host : "10.240.3.169:55005" },
+      { _id : 1, host : "10.240.3.169:55006" },
+      { _id : 2, host : "10.240.3.169:55007" }
+    ]
+  }
+)
+
+docker-compose -f routing-2/docker-compose.yaml up -d
+mongosh mongodb://10.240.3.169:65002
+sh.addShard("replicasM2/10.240.3.169:55006,10.240.3.169:55007")
+-----------------------------------------------------------------------------------
+# CONFIGURACION APP 1
+
+docker network create network2_CRUD
+
+docker build -t front_app1 .
+docker run -p 3000:3000 --network=network2_CRUD --name front_app1 front_app1
+
+docker build -t back_app1 .
+docker run -p 3001:3001 --network=network2_CRUD --name back_app1 back_app1
+-----------------------------------------------------------------------------------
+# CONFIGURACION APP 2
+
+docker network create network2_READ
+
+docker build -t front_app2 .
+docker run -p 3002:3002 --network=network2_READ --name front_app2 front_app2
+
+docker build -t back_app2 .
+docker run -p 3003:3003 --network=network2_READ --name back_app2 back_app2
+-----------------------------------------------------------------------------------
+# CONFIGURACION ETL
+
+docker build -t etl_sales .
+docker run --name etl_sales etl_sales
